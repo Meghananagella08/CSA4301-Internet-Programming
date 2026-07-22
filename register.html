@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Web Standards Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>Web Standards Portal</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Registration Section -->
+    <section class="register-section">
+
+        <div class="register-card">
+
+            <p class="step">STEP 1 OF 4</p>
+
+            <h1>Create Your Account</h1>
+
+            <p class="subtitle">
+                Register to begin exploring our Web Standards Portal.
+            </p>
+
+            <form id="registerForm" method="POST">
+
+                <div class="input-box">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text"
+                           placeholder="Full Name"
+                           required>
+                </div>
+
+                <div class="input-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email"
+                           placeholder="Email Address"
+                           required>
+                </div>
+
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password"
+                           placeholder="Password"
+                           required>
+                </div>
+
+                <button type="submit" class="start-btn">
+                    Register
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <p class="note">
+                <i class="fa-solid fa-circle-info"></i>
+                This demo uses the <strong>POST</strong> method. No data is stored because there is no backend database.
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

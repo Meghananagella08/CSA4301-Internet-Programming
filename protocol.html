@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP Communication | Web Standards Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>Web Standards Portal</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- HTTP Section -->
+    <section class="protocol-section">
+
+        <div class="protocol-card">
+
+            <p class="step">STEP 4 OF 4</p>
+
+            <h1>Browser & Server Communication</h1>
+
+            <p class="subtitle">
+                When you clicked <strong>Register</strong>, your browser would normally
+                send your details to a web server using an
+                <strong>HTTP POST</strong> request.
+                In this demo, the process is simulated because no backend or database
+                is connected.
+            </p>
+
+            <div class="flow-box">
+
+                <div class="flow-item">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Browser</h3>
+                    <p>User enters registration details.</p>
+                </div>
+
+                <div class="arrow">
+                    ⟶ <strong>HTTP POST Request</strong> ⟶
+                </div>
+
+                <div class="flow-item">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Server</h3>
+                    <p>Processes the request and prepares a response.</p>
+                </div>
+
+                <div class="arrow">
+                    ⟵ <strong>HTTP Response</strong> ⟵
+                </div>
+
+                <div class="flow-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h3>Result</h3>
+                    <p>The browser receives the response and continues to the next page.</p>
+                </div>
+
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    <strong>HTTP</strong> is the standard protocol used for communication
+                    between web browsers and web servers. The
+                    <strong>POST</strong> method is commonly used to send form data securely
+                    to the server.
+                </p>
+
+            </div>
+
+            <a href="index.html" class="start-btn">
+                Finish
+                <i class="fa-solid fa-house"></i>
+            </a>
+
+        </div>
+
+    </section>
+<script src="script.js"></script>
+</body>
+
+</html>

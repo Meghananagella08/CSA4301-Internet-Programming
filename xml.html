@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Validation | Web Standards Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>Web Standards Portal</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- XML Section -->
+    <section class="xml-section">
+
+        <div class="xml-card">
+
+            <p class="step">STEP 3 OF 4</p>
+
+            <h1>Data Validation using XML</h1>
+
+            <p class="subtitle">
+                Modern web applications exchange and organize structured data.
+                XML (eXtensible Markup Language) is one of the standard formats
+                used to represent and validate data.
+            </p>
+
+            <h3>✔ Valid XML Example</h3>
+
+<pre>
+&lt;user&gt;
+    &lt;name&gt;Meghana&lt;/name&gt;
+    &lt;email&gt;meghana@example.com&lt;/email&gt;
+&lt;/user&gt;
+</pre>
+
+            <h3>❌ Invalid XML Example</h3>
+
+<pre>
+&lt;user&gt;
+    &lt;name&gt;Meghana&lt;/email&gt;
+&lt;/user&gt;
+</pre>
+
+            <div class="info-box">
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    The second example is invalid because the opening and closing
+                    tags do not match. XML requires every opening tag to have the
+                    correct closing tag.
+                </p>
+
+            </div>
+
+            <a href="protocol.html" class="start-btn">
+                Continue
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
